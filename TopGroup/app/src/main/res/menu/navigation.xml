@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_calendar"
+        android:icon="@drawable/ic_calendar"
+        android:title="@string/title_calendar" />
+
+    <item
+        android:id="@+id/navigation_account"
+        android:icon="@drawable/ic_account"
+        android:title="@string/title_account" />
+
+    <item
+        android:id="@+id/navigation_storage"
+        android:icon="@drawable/ic_storage"
+        android:title="@string/title_storage" />
+
+    <item
+        android:id="@+id/navigation_me"
+        android:icon="@drawable/ic_me"
+        android:title="@string/title_me"/>
+
+</menu>
