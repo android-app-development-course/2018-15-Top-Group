@@ -3,89 +3,187 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
+    <!--账户名-->
     <LinearLayout
-        android:id="@+id/ll_number"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="5dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:layout_marginTop="15dp"
-        android:background="#ffffff">
-
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="5dp"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical">
         <TextView
-            android:id="@+id/tv_number"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:padding="10dp"
-            android:text="账号"
+            android:textSize="20sp"
             android:textColor="#000000"
-            android:textSize="20sp" />
-
-        <EditText
-            android:id="@+id/edt_account"
+            android:text="@string/r_ac"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/edt_rat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:digits="@string/inputtype"
+                android:inputType="textVisiblePassword"
+                android:ems="10" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/r_tac"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@null"
-            android:hint="请输入账号"
-            android:inputType="textVisiblePassword"
-            android:maxLines="1"
-            android:textColor="#000000"
-            android:textSize="20sp" />
+            android:text="@string/r_ac_hint"/>
     </LinearLayout>
+
+    <!--昵称-->
     <LinearLayout
-        android:id="@+id/ll_password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/ll_number"
-        android:layout_centerVertical="true"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:background="#ffffff">
-
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="5dp"
+        android:orientation="vertical">
         <TextView
-            android:id="@+id/tv_password"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:padding="10dp"
-            android:text="密码"
+            android:textSize="20sp"
             android:textColor="#000000"
-            android:textSize="20sp" />
-
-        <EditText
-            android:id="@+id/edt_password"
+            android:text="@string/r_nn"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/edt_rnn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:maxLines="1" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/r_tnn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@null"
-            android:hint="请输入密码"
-            android:inputType="textVisiblePassword"
-            android:maxLines="1"
-            android:textColor="#000000"
-            android:textSize="20sp" />
+            android:text="@string/r_nn_hint"/>
     </LinearLayout>
 
-    <Button
-        android:id="@+id/btn_login"
+    <!--密码-->
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/ll_password"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:layout_marginTop="50dp"
-        android:background="@color/blue"
-        android:text="确认"
-        android:textColor="#ffffff"
-        android:textSize="20sp" />
-    <Button
-        android:id="@+id/btn_skip"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="5dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:text="@string/r_pw"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/edt_rpw"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:digits="@string/inputtype"
+                android:inputType="textPassword"
+                android:ems="12"
+                android:maxLines="1"
+                />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/r_tpw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/r_pw_hint"/>
+    </LinearLayout>
+
+    <!--确认密码-->
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/btn_login"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:layout_marginTop="50dp"
-        android:background="@color/blue"
-        android:text="skip"
-        android:textColor="#ffffff"
-        android:textSize="20sp" />
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="5dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:text="@string/r_pw2"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/edt_rpw2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:digits="@string/inputtype"
+                android:inputType="textPassword"
+                android:ems="12"
+                android:maxLines="1" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/r_tpw2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/r_pw2_hint"/>
+    </LinearLayout>
+
+
+    <!--性别-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="5dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:text="@string/r_gd"/>
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/r_rb1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:text="@string/r_rbn1"
+                android:checked="true"/>
+            <RadioButton
+                android:id="@+id/r_rb2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:textSize="25sp"
+                android:text="@string/r_rbn2"
+                android:layout_marginStart="70dp" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="5dp">
+        <Button
+            android:id="@+id/r_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/red0"
+            android:gravity="center"
+            android:text="@string/r_btn"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:enabled="false"/>
+    </RelativeLayout>
 </LinearLayout>

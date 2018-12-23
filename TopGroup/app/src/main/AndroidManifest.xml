@@ -29,30 +29,26 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".LoginActivity"
-            android:label="Login">
-        </activity>
-        <activity
-            android:name=".MainActivity"
-            android:label="@string/app_name">
+            android:label="LoginActivity"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity
             android:name=".RegisterActivity"
             android:label="Register">
-
-        </activity>
-        <activity
-            android:name=".Login"
-            android:label="Login">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name=".UserGroup"
             android:label="UserGroup">
         </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+        </activity>
+
         <!--
         <activity
             android:name=".CreateActivity"

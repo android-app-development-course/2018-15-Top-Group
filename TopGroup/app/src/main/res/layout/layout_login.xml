@@ -6,9 +6,9 @@
     <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:focusableInTouchMode="true"
         >
-        //头部图片
-
+        <!--头部图片-->
         <ImageView
             android:id="@+id/iv"
             android:layout_width="70dp"
@@ -16,7 +16,7 @@
             android:layout_centerHorizontal="true"
             android:layout_marginTop="40dp"
             android:background="@drawable/ic_tab_team" />
-        //账号栏
+        <!--账号栏-->
 
         <LinearLayout
             android:id="@+id/ll_number"
@@ -36,14 +36,20 @@
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:background="@null"
+                android:drawableLeft="@drawable/ic_account"
                 android:hint="@string/edt_un"
+                android:digits="@string/inputtype"
                 android:inputType="textVisiblePassword"
+                android:layout_marginLeft="3dp"
+                android:ems="10"
                 android:maxLines="1"
                 android:layout_gravity="center_vertical"
                 android:textColor="#000000"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:layout_marginStart="3dp"
+                android:drawableStart="@drawable/ic_account" />
         </LinearLayout>
-        //密码栏
+        <!--密码栏-->
 
         <LinearLayout
             android:id="@+id/ll_password"
@@ -62,12 +68,18 @@
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:background="@null"
+                android:drawableStart="@drawable/ic_password"
+                android:ems="12"
                 android:hint="@string/edt_pw"
+                android:digits="@string/inputtype"
                 android:inputType="textPassword"
                 android:layout_gravity="center_vertical"
+                android:layout_marginStart="3dp"
                 android:maxLines="1"
                 android:textColor="#000000"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:drawableLeft="@drawable/ic_password"
+                android:layout_marginLeft="3dp" />
         </LinearLayout>
 
         <TextView
@@ -78,7 +90,8 @@
             android:layout_below="@id/btn_login"
             android:layout_marginTop="15dp"
             android:layout_marginLeft="10dp"
-            android:textColor="@color/blue"/>
+            android:textColor="@color/blue"
+            android:layout_marginStart="10dp" />
 
         <Button
             android:id="@+id/btn_login"
@@ -91,7 +104,8 @@
             android:background="@color/colorPrimary"
             android:text="@string/app_login"
             android:textColor="#ffffff"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            android:enabled="true"/>
     </RelativeLayout>
     <LinearLayout
         android:layout_width="match_parent"
