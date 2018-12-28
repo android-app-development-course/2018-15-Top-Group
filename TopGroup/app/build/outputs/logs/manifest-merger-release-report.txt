@@ -1,0 +1,289 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/liyixun/Downloads/Android-master/TopGroup/app/src/main/AndroidManifest.xml:2:1-72:12
+INJECTED from /Users/liyixun/Downloads/Android-master/TopGroup/app/src/main/AndroidManifest.xml:2:1-72:12
+INJECTED from /Users/liyixun/Downloads/Android-master/TopGroup/app/src/main/AndroidManifest.xml:2:1-72:12
+INJECTED from /Users/liyixun/Downloads/Android-master/TopGroup/app/src/main/AndroidManifest.xml:2:1-72:12
+MERGED from [com.github.hackware1993:MagicIndicator:1.5.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/MagicIndicator-1.5.0.aar/6377c7215bc7229da25901a22b671432/AndroidManifest.xml:2:1-12:12
+MERGED from [com.android.support:design:28.0.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/769645eee5a1e9d3cf390a53ee6dde0c/AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.sundeepk:compact-calendar-view:3.0.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/compact-calendar-view-3.0.0.aar/9af747d1f6ee01b56ccfd08a5fbb9b84/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/7b5a3483889d67769303998e6ebdca7a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/bdf10f8cd8b048f99282fbc28bca2c05/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/71bc2d1fedb7323ebe6aba78a51db2a1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/e687d4562b5f36320d69257d16706568/AndroidManifest.xml:17:1-22:12
+MERGED from [cn.bmob.android:bmob-sdk:3.6.8-rc3] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/bmob-sdk-3.6.8-rc3.aar/14ddbcf60e7d5ea807161a71367de3e9/AndroidManifest.xml:2:1-16:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/rxandroid-2.1.0.aar/d43ad199e8f2ae08cedad309f6300004/AndroidManifest.xml:15:1-20:12
+MERGED from [com.android.support:support-v4:28.0.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/902960ad246d192b06d730ee5957ee1a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/glide-4.8.0.aar/3fd886097f47136d16eb1a285f52d07f/AndroidManifest.xml:2:1-12:12
+MERGED from [de.hdodenhof:circleimageview:2.1.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/circleimageview-2.1.0.aar/9c1083f33eece7eb08bd435f969ff616/AndroidManifest.xml:2:1-11:12
+MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-18] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/SmartRefreshLayout-1.1.0-alpha-18.aar/ceb4eeb3ce375ef4e9c89a6cce046945/AndroidManifest.xml:2:1-17:12
+MERGED from [com.scwang.smartrefresh:SmartRefreshHeader:1.1.0-alpha-18] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/SmartRefreshHeader-1.1.0-alpha-18.aar/cdddde7e6444b69020b7deb1347f8705/AndroidManifest.xml:2:1-17:12
+MERGED from [com.melnykov:floatingactionbutton:1.2.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/floatingactionbutton-1.2.0.aar/5eb1da33acfb620b3c6748e9e9dbfc47/AndroidManifest.xml:2:1-14:12
+MERGED from [com.colapps:datetimepicker-library:0.0.7] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/datetimepicker-library-0.0.7.aar/6b28b7dba64d4853799367a6aa56622e/AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/597fa7890e2657590a5de9372f11b92f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/251d6e7625c1e9e5d4d83972682abdaa/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/79353fd109a4c97669afe3c01f7c1ac1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/a5445f7618ba0db58e003d9fa2829910/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/8669c045b97a1d6bab41a6b4ecef08b8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/fb30d8d1c1a3a20437470222fa30a557/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/96e19c3c40a5653c369408e78183c5c1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/edb0648cd6c72fb2234fce38499d9c7b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/99b571ae60fc9fb1ae56ef55f41ee33d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/ff75f35e274f96142f61b848943f391a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/acc81dd874e65f6c6d9a54d1367809be/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/33316e9c5a2fa9fb330a962b23dc0d6a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/3e2d13a383222a92eb58220614b54bb1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/5241b71a27a8c6124e5b3f003a7216a6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/04f7487c0038aa89f81dba8900a6f85c/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/26c2b16374611e84c545edab20ad7bea/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.8.0.aar/2fda8216405a8da7994cb7226d66bece/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/d0db283dde49dc1b8a79f53ee4ccc450/AndroidManifest.xml:17:1-25:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/20bf9145ac1846470b711e7b9bf60f61/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/cdd589fbc307f16a8f14c8c55ed31e09/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/20ca7ca7ed98ef89e48989ca0d410a4b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/89072ce72b306c879a4fdab0846167f4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/a8abb53a589e4a9b56cffbc38412685d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/91e1c7d9efae17c29948e491e3bcf02c/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/c9a0ea65508057e22e5f529f21aad84c/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/e9d0c0482cb40e923cf13f87d9790573/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/5d92ee67b8fd649b73f31bb7e255751e/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/46f43fbc92284b9ea0564511f0289a8b/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/liyixun/Downloads/Android-master/TopGroup/app/src/main/AndroidManifest.xml:2:1-72:12
+INJECTED from /Users/liyixun/Downloads/Android-master/TopGroup/app/src/main/AndroidManifest.xml:2:1-72:12
+INJECTED from /Users/liyixun/Downloads/Android-master/TopGroup/app/src/main/AndroidManifest.xml:2:1-72:12
+	package
+		ADDED from /Users/liyixun/Downloads/Android-master/TopGroup/app/src/main/AndroidManifest.xml:3:5-43
+		INJECTED from /Users/liyixun/Downloads/Android-master/TopGroup/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/liyixun/Downloads/Android-master/TopGroup/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/liyixun/Downloads/Android-master/TopGroup/app/src/main/AndroidManifest.xml
+		ADDED from /Users/liyixun/Downloads/Android-master/TopGroup/app/src/main/AndroidManifest.xml:2:1-72:12
+		INJECTED from /Users/liyixun/Downloads/Android-master/TopGroup/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/liyixun/Downloads/Android-master/TopGroup/app/src/main/AndroidManifest.xml
+		ADDED from /Users/liyixun/Downloads/Android-master/TopGroup/app/src/main/AndroidManifest.xml:2:1-72:12
+		INJECTED from /Users/liyixun/Downloads/Android-master/TopGroup/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/liyixun/Downloads/Android-master/TopGroup/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/liyixun/Downloads/Android-master/TopGroup/app/src/main/AndroidManifest.xml:5:5-66
+	android:name
+		ADDED from /Users/liyixun/Downloads/Android-master/TopGroup/app/src/main/AndroidManifest.xml:5:22-63
+uses-permission#android.permission.INTERNET
+ADDED from /Users/liyixun/Downloads/Android-master/TopGroup/app/src/main/AndroidManifest.xml:7:5-67
+	android:name
+		ADDED from /Users/liyixun/Downloads/Android-master/TopGroup/app/src/main/AndroidManifest.xml:7:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/liyixun/Downloads/Android-master/TopGroup/app/src/main/AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from /Users/liyixun/Downloads/Android-master/TopGroup/app/src/main/AndroidManifest.xml:9:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/liyixun/Downloads/Android-master/TopGroup/app/src/main/AndroidManifest.xml:11:5-76
+	android:name
+		ADDED from /Users/liyixun/Downloads/Android-master/TopGroup/app/src/main/AndroidManifest.xml:11:22-73
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/liyixun/Downloads/Android-master/TopGroup/app/src/main/AndroidManifest.xml:13:5-68
+	android:name
+		ADDED from /Users/liyixun/Downloads/Android-master/TopGroup/app/src/main/AndroidManifest.xml:13:22-65
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/liyixun/Downloads/Android-master/TopGroup/app/src/main/AndroidManifest.xml:15:5-81
+	android:name
+		ADDED from /Users/liyixun/Downloads/Android-master/TopGroup/app/src/main/AndroidManifest.xml:15:22-78
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/liyixun/Downloads/Android-master/TopGroup/app/src/main/AndroidManifest.xml:17:5-75
+	android:name
+		ADDED from /Users/liyixun/Downloads/Android-master/TopGroup/app/src/main/AndroidManifest.xml:17:22-72
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from /Users/liyixun/Downloads/Android-master/TopGroup/app/src/main/AndroidManifest.xml:20:5-71
+	android:name
+		ADDED from /Users/liyixun/Downloads/Android-master/TopGroup/app/src/main/AndroidManifest.xml:20:22-68
+uses-permission#android.permission.READ_PROFILE
+ADDED from /Users/liyixun/Downloads/Android-master/TopGroup/app/src/main/AndroidManifest.xml:21:5-71
+	android:name
+		ADDED from /Users/liyixun/Downloads/Android-master/TopGroup/app/src/main/AndroidManifest.xml:21:22-68
+uses-permission#android.permission.READ_CONTACTS
+ADDED from /Users/liyixun/Downloads/Android-master/TopGroup/app/src/main/AndroidManifest.xml:22:5-72
+	android:name
+		ADDED from /Users/liyixun/Downloads/Android-master/TopGroup/app/src/main/AndroidManifest.xml:22:22-69
+application
+ADDED from /Users/liyixun/Downloads/Android-master/TopGroup/app/src/main/AndroidManifest.xml:24:5-70:19
+MERGED from [com.android.support:design:28.0.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/769645eee5a1e9d3cf390a53ee6dde0c/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/769645eee5a1e9d3cf390a53ee6dde0c/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/bdf10f8cd8b048f99282fbc28bca2c05/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/bdf10f8cd8b048f99282fbc28bca2c05/AndroidManifest.xml:9:5-20
+MERGED from [cn.bmob.android:bmob-sdk:3.6.8-rc3] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/bmob-sdk-3.6.8-rc3.aar/14ddbcf60e7d5ea807161a71367de3e9/AndroidManifest.xml:11:5-14:19
+MERGED from [cn.bmob.android:bmob-sdk:3.6.8-rc3] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/bmob-sdk-3.6.8-rc3.aar/14ddbcf60e7d5ea807161a71367de3e9/AndroidManifest.xml:11:5-14:19
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/glide-4.8.0.aar/3fd886097f47136d16eb1a285f52d07f/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/glide-4.8.0.aar/3fd886097f47136d16eb1a285f52d07f/AndroidManifest.xml:10:5-20
+MERGED from [de.hdodenhof:circleimageview:2.1.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/circleimageview-2.1.0.aar/9c1083f33eece7eb08bd435f969ff616/AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.1.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/circleimageview-2.1.0.aar/9c1083f33eece7eb08bd435f969ff616/AndroidManifest.xml:9:5-20
+MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-18] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/SmartRefreshLayout-1.1.0-alpha-18.aar/ceb4eeb3ce375ef4e9c89a6cce046945/AndroidManifest.xml:11:5-15:19
+MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-18] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/SmartRefreshLayout-1.1.0-alpha-18.aar/ceb4eeb3ce375ef4e9c89a6cce046945/AndroidManifest.xml:11:5-15:19
+MERGED from [com.scwang.smartrefresh:SmartRefreshHeader:1.1.0-alpha-18] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/SmartRefreshHeader-1.1.0-alpha-18.aar/cdddde7e6444b69020b7deb1347f8705/AndroidManifest.xml:11:5-15:19
+MERGED from [com.scwang.smartrefresh:SmartRefreshHeader:1.1.0-alpha-18] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/SmartRefreshHeader-1.1.0-alpha-18.aar/cdddde7e6444b69020b7deb1347f8705/AndroidManifest.xml:11:5-15:19
+MERGED from [com.melnykov:floatingactionbutton:1.2.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/floatingactionbutton-1.2.0.aar/5eb1da33acfb620b3c6748e9e9dbfc47/AndroidManifest.xml:12:5-20
+MERGED from [com.melnykov:floatingactionbutton:1.2.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/floatingactionbutton-1.2.0.aar/5eb1da33acfb620b3c6748e9e9dbfc47/AndroidManifest.xml:12:5-20
+MERGED from [com.colapps:datetimepicker-library:0.0.7] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/datetimepicker-library-0.0.7.aar/6b28b7dba64d4853799367a6aa56622e/AndroidManifest.xml:11:5-20
+MERGED from [com.colapps:datetimepicker-library:0.0.7] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/datetimepicker-library-0.0.7.aar/6b28b7dba64d4853799367a6aa56622e/AndroidManifest.xml:11:5-20
+MERGED from [com.android.support:support-compat:28.0.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/04f7487c0038aa89f81dba8900a6f85c/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/04f7487c0038aa89f81dba8900a6f85c/AndroidManifest.xml:22:5-94
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.8.0.aar/2fda8216405a8da7994cb7226d66bece/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.8.0.aar/2fda8216405a8da7994cb7226d66bece/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/d0db283dde49dc1b8a79f53ee4ccc450/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/d0db283dde49dc1b8a79f53ee4ccc450/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/04f7487c0038aa89f81dba8900a6f85c/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /Users/liyixun/Downloads/Android-master/TopGroup/app/src/main/AndroidManifest.xml:30:9-35
+	android:label
+		ADDED from /Users/liyixun/Downloads/Android-master/TopGroup/app/src/main/AndroidManifest.xml:28:9-41
+	android:roundIcon
+		ADDED from /Users/liyixun/Downloads/Android-master/TopGroup/app/src/main/AndroidManifest.xml:29:9-50
+	android:icon
+		ADDED from /Users/liyixun/Downloads/Android-master/TopGroup/app/src/main/AndroidManifest.xml:26:9-45
+	android:allowBackup
+		ADDED from /Users/liyixun/Downloads/Android-master/TopGroup/app/src/main/AndroidManifest.xml:25:9-35
+	android:theme
+		ADDED from /Users/liyixun/Downloads/Android-master/TopGroup/app/src/main/AndroidManifest.xml:31:9-40
+	android:name
+		ADDED from /Users/liyixun/Downloads/Android-master/TopGroup/app/src/main/AndroidManifest.xml:27:9-41
+activity#com.example.liyixun.TopGroup.LoginActivity
+ADDED from /Users/liyixun/Downloads/Android-master/TopGroup/app/src/main/AndroidManifest.xml:32:9-39:20
+	android:label
+		ADDED from /Users/liyixun/Downloads/Android-master/TopGroup/app/src/main/AndroidManifest.xml:34:13-38
+	android:name
+		ADDED from /Users/liyixun/Downloads/Android-master/TopGroup/app/src/main/AndroidManifest.xml:33:13-42
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/liyixun/Downloads/Android-master/TopGroup/app/src/main/AndroidManifest.xml:35:13-38:29
+action#android.intent.action.MAIN
+ADDED from /Users/liyixun/Downloads/Android-master/TopGroup/app/src/main/AndroidManifest.xml:36:17-69
+	android:name
+		ADDED from /Users/liyixun/Downloads/Android-master/TopGroup/app/src/main/AndroidManifest.xml:36:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/liyixun/Downloads/Android-master/TopGroup/app/src/main/AndroidManifest.xml:37:17-77
+	android:name
+		ADDED from /Users/liyixun/Downloads/Android-master/TopGroup/app/src/main/AndroidManifest.xml:37:27-74
+activity#com.example.liyixun.TopGroup.RegisterActivity
+ADDED from /Users/liyixun/Downloads/Android-master/TopGroup/app/src/main/AndroidManifest.xml:40:9-43:20
+	android:label
+		ADDED from /Users/liyixun/Downloads/Android-master/TopGroup/app/src/main/AndroidManifest.xml:42:13-37
+	android:name
+		ADDED from /Users/liyixun/Downloads/Android-master/TopGroup/app/src/main/AndroidManifest.xml:41:13-45
+activity#com.example.liyixun.TopGroup.UserGroup
+ADDED from /Users/liyixun/Downloads/Android-master/TopGroup/app/src/main/AndroidManifest.xml:44:9-47:20
+	android:label
+		ADDED from /Users/liyixun/Downloads/Android-master/TopGroup/app/src/main/AndroidManifest.xml:46:13-38
+	android:name
+		ADDED from /Users/liyixun/Downloads/Android-master/TopGroup/app/src/main/AndroidManifest.xml:45:13-38
+activity#com.example.liyixun.TopGroup.MainActivity
+ADDED from /Users/liyixun/Downloads/Android-master/TopGroup/app/src/main/AndroidManifest.xml:48:9-51:20
+	android:label
+		ADDED from /Users/liyixun/Downloads/Android-master/TopGroup/app/src/main/AndroidManifest.xml:50:13-45
+	android:name
+		ADDED from /Users/liyixun/Downloads/Android-master/TopGroup/app/src/main/AndroidManifest.xml:49:13-41
+activity#com.example.liyixun.TopGroup.Calendar.AddEvent
+ADDED from /Users/liyixun/Downloads/Android-master/TopGroup/app/src/main/AndroidManifest.xml:52:9-54:20
+	android:name
+		ADDED from /Users/liyixun/Downloads/Android-master/TopGroup/app/src/main/AndroidManifest.xml:53:13-46
+uses-sdk
+INJECTED from /Users/liyixun/Downloads/Android-master/TopGroup/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/liyixun/Downloads/Android-master/TopGroup/app/src/main/AndroidManifest.xml
+INJECTED from /Users/liyixun/Downloads/Android-master/TopGroup/app/src/main/AndroidManifest.xml
+MERGED from [com.github.hackware1993:MagicIndicator:1.5.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/MagicIndicator-1.5.0.aar/6377c7215bc7229da25901a22b671432/AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.hackware1993:MagicIndicator:1.5.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/MagicIndicator-1.5.0.aar/6377c7215bc7229da25901a22b671432/AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:design:28.0.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/769645eee5a1e9d3cf390a53ee6dde0c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/769645eee5a1e9d3cf390a53ee6dde0c/AndroidManifest.xml:20:5-44
+MERGED from [com.github.sundeepk:compact-calendar-view:3.0.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/compact-calendar-view-3.0.0.aar/9af747d1f6ee01b56ccfd08a5fbb9b84/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.sundeepk:compact-calendar-view:3.0.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/compact-calendar-view-3.0.0.aar/9af747d1f6ee01b56ccfd08a5fbb9b84/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/7b5a3483889d67769303998e6ebdca7a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/7b5a3483889d67769303998e6ebdca7a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/bdf10f8cd8b048f99282fbc28bca2c05/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/bdf10f8cd8b048f99282fbc28bca2c05/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/71bc2d1fedb7323ebe6aba78a51db2a1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/71bc2d1fedb7323ebe6aba78a51db2a1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/e687d4562b5f36320d69257d16706568/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/e687d4562b5f36320d69257d16706568/AndroidManifest.xml:20:5-44
+MERGED from [cn.bmob.android:bmob-sdk:3.6.8-rc3] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/bmob-sdk-3.6.8-rc3.aar/14ddbcf60e7d5ea807161a71367de3e9/AndroidManifest.xml:7:5-9:41
+MERGED from [cn.bmob.android:bmob-sdk:3.6.8-rc3] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/bmob-sdk-3.6.8-rc3.aar/14ddbcf60e7d5ea807161a71367de3e9/AndroidManifest.xml:7:5-9:41
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/rxandroid-2.1.0.aar/d43ad199e8f2ae08cedad309f6300004/AndroidManifest.xml:18:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/rxandroid-2.1.0.aar/d43ad199e8f2ae08cedad309f6300004/AndroidManifest.xml:18:5-43
+MERGED from [com.android.support:support-v4:28.0.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/902960ad246d192b06d730ee5957ee1a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/902960ad246d192b06d730ee5957ee1a/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/glide-4.8.0.aar/3fd886097f47136d16eb1a285f52d07f/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/glide-4.8.0.aar/3fd886097f47136d16eb1a285f52d07f/AndroidManifest.xml:6:5-8:41
+MERGED from [de.hdodenhof:circleimageview:2.1.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/circleimageview-2.1.0.aar/9c1083f33eece7eb08bd435f969ff616/AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.1.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/circleimageview-2.1.0.aar/9c1083f33eece7eb08bd435f969ff616/AndroidManifest.xml:5:5-7:41
+MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-18] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/SmartRefreshLayout-1.1.0-alpha-18.aar/ceb4eeb3ce375ef4e9c89a6cce046945/AndroidManifest.xml:7:5-9:41
+MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-18] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/SmartRefreshLayout-1.1.0-alpha-18.aar/ceb4eeb3ce375ef4e9c89a6cce046945/AndroidManifest.xml:7:5-9:41
+MERGED from [com.scwang.smartrefresh:SmartRefreshHeader:1.1.0-alpha-18] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/SmartRefreshHeader-1.1.0-alpha-18.aar/cdddde7e6444b69020b7deb1347f8705/AndroidManifest.xml:7:5-9:41
+MERGED from [com.scwang.smartrefresh:SmartRefreshHeader:1.1.0-alpha-18] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/SmartRefreshHeader-1.1.0-alpha-18.aar/cdddde7e6444b69020b7deb1347f8705/AndroidManifest.xml:7:5-9:41
+MERGED from [com.melnykov:floatingactionbutton:1.2.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/floatingactionbutton-1.2.0.aar/5eb1da33acfb620b3c6748e9e9dbfc47/AndroidManifest.xml:8:5-10:41
+MERGED from [com.melnykov:floatingactionbutton:1.2.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/floatingactionbutton-1.2.0.aar/5eb1da33acfb620b3c6748e9e9dbfc47/AndroidManifest.xml:8:5-10:41
+MERGED from [com.colapps:datetimepicker-library:0.0.7] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/datetimepicker-library-0.0.7.aar/6b28b7dba64d4853799367a6aa56622e/AndroidManifest.xml:7:5-9:41
+MERGED from [com.colapps:datetimepicker-library:0.0.7] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/datetimepicker-library-0.0.7.aar/6b28b7dba64d4853799367a6aa56622e/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/597fa7890e2657590a5de9372f11b92f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/597fa7890e2657590a5de9372f11b92f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/251d6e7625c1e9e5d4d83972682abdaa/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/251d6e7625c1e9e5d4d83972682abdaa/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/79353fd109a4c97669afe3c01f7c1ac1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/79353fd109a4c97669afe3c01f7c1ac1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/a5445f7618ba0db58e003d9fa2829910/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/a5445f7618ba0db58e003d9fa2829910/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/8669c045b97a1d6bab41a6b4ecef08b8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/8669c045b97a1d6bab41a6b4ecef08b8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/fb30d8d1c1a3a20437470222fa30a557/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/fb30d8d1c1a3a20437470222fa30a557/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/96e19c3c40a5653c369408e78183c5c1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/96e19c3c40a5653c369408e78183c5c1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/edb0648cd6c72fb2234fce38499d9c7b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/edb0648cd6c72fb2234fce38499d9c7b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/99b571ae60fc9fb1ae56ef55f41ee33d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/99b571ae60fc9fb1ae56ef55f41ee33d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/ff75f35e274f96142f61b848943f391a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/ff75f35e274f96142f61b848943f391a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/acc81dd874e65f6c6d9a54d1367809be/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/acc81dd874e65f6c6d9a54d1367809be/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/33316e9c5a2fa9fb330a962b23dc0d6a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/33316e9c5a2fa9fb330a962b23dc0d6a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/3e2d13a383222a92eb58220614b54bb1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/3e2d13a383222a92eb58220614b54bb1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/5241b71a27a8c6124e5b3f003a7216a6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/5241b71a27a8c6124e5b3f003a7216a6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/04f7487c0038aa89f81dba8900a6f85c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/04f7487c0038aa89f81dba8900a6f85c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/26c2b16374611e84c545edab20ad7bea/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/26c2b16374611e84c545edab20ad7bea/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.8.0.aar/2fda8216405a8da7994cb7226d66bece/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.8.0.aar/2fda8216405a8da7994cb7226d66bece/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/d0db283dde49dc1b8a79f53ee4ccc450/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/d0db283dde49dc1b8a79f53ee4ccc450/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/20bf9145ac1846470b711e7b9bf60f61/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/20bf9145ac1846470b711e7b9bf60f61/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/cdd589fbc307f16a8f14c8c55ed31e09/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/cdd589fbc307f16a8f14c8c55ed31e09/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/20ca7ca7ed98ef89e48989ca0d410a4b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/20ca7ca7ed98ef89e48989ca0d410a4b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/89072ce72b306c879a4fdab0846167f4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/89072ce72b306c879a4fdab0846167f4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/a8abb53a589e4a9b56cffbc38412685d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/a8abb53a589e4a9b56cffbc38412685d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/91e1c7d9efae17c29948e491e3bcf02c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/91e1c7d9efae17c29948e491e3bcf02c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/c9a0ea65508057e22e5f529f21aad84c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/c9a0ea65508057e22e5f529f21aad84c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/e9d0c0482cb40e923cf13f87d9790573/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/e9d0c0482cb40e923cf13f87d9790573/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/5d92ee67b8fd649b73f31bb7e255751e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/5d92ee67b8fd649b73f31bb7e255751e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/46f43fbc92284b9ea0564511f0289a8b/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/liyixun/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/46f43fbc92284b9ea0564511f0289a8b/AndroidManifest.xml:20:5-44
+INJECTED from /Users/liyixun/Downloads/Android-master/TopGroup/app/src/main/AndroidManifest.xml
+INJECTED from /Users/liyixun/Downloads/Android-master/TopGroup/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/liyixun/Downloads/Android-master/TopGroup/app/src/main/AndroidManifest.xml
+		ADDED from /Users/liyixun/Downloads/Android-master/TopGroup/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/liyixun/Downloads/Android-master/TopGroup/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/liyixun/Downloads/Android-master/TopGroup/app/src/main/AndroidManifest.xml
+		ADDED from /Users/liyixun/Downloads/Android-master/TopGroup/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/liyixun/Downloads/Android-master/TopGroup/app/src/main/AndroidManifest.xml

@@ -69,13 +69,15 @@ public class Fragment_account extends Fragment implements View.OnClickListener{
                     Account account = (Account) msg.getData().getSerializable("account");
                     if (account.getType().equals("收入")){
                         income.add(account);
+                        Log.e("handle",account.getDetail());
                     } else if (account.getType().equals("支出")){
                         spend.add(account);
                     }
                     break;
                 }
                 case LOAD_END: {
-
+                    BoomSQL.setIncome(income);
+                    BoomSQL.setSpend(spend);
                     break;
                 }
                 default:
@@ -135,6 +137,11 @@ public class Fragment_account extends Fragment implements View.OnClickListener{
             }
         });
 
+        rb_income = (RadioButton) view.findViewById(R.id.rb_income);
+        rb_spend = (RadioButton) view.findViewById(R.id.rb_spend);
+
+        rb_income.setOnClickListener(this);
+        rb_spend.setOnClickListener(this);
 
     }
 
@@ -187,7 +194,7 @@ public class Fragment_account extends Fragment implements View.OnClickListener{
                     sum = nincome - nspend;
                     tv_income.setText(String.valueOf(nincome));
                     tv_spend.setText(String.valueOf(nspend));
-                }else {
+                } else {
                     Log.e("account_load",e.getMessage());
                 }
             }
@@ -198,11 +205,23 @@ public class Fragment_account extends Fragment implements View.OnClickListener{
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.rb_income:{
-                refresh();
+                activity = (MainActivity) getActivity();
+                Fragment_list fragment_list = new Fragment_list();
+                activity.replaceFragment2(fragment_list);
                 break;
             }
             case R.id.rb_spend:{
-                refresh();
+                activity = (MainActivity) getActivity();
+                Fragment_list2 fragment_list2 = new Fragment_list2();
+                activity.replaceFragment2(fragment_list2);
+                break;
+            }
+            case R.id.btn_income:{
+                activity_income();
+                break;
+            }
+            case R.id.btn_spend:{
+                activity_spend();
                 break;
             }
             default:

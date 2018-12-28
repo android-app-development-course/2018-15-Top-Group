@@ -9,19 +9,26 @@ import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
 import com.example.liyixun.TopGroup.R;
+import com.github.sundeepk.compactcalendarview.domain.Event;
+
+import java.text.SimpleDateFormat;
 
 import java.util.List;
+import java.util.Locale;
 
 public class TextAdapter extends RecyclerView.Adapter<TextAdapter.Viewholder>  {
-    private List<String> mTextList;
+
+    private List<Event> mTextList;
     static class Viewholder extends RecyclerView.ViewHolder{
         TextView textContent;
+        TextView textdate;
         public Viewholder(View view){
             super(view);
             textContent=(TextView)view.findViewById(R.id.textOne);
+            textdate=(TextView)view.findViewById(R.id.textTime);
         }
     }
-    public TextAdapter(List<String> a){
+    public TextAdapter(List<Event> a){
         mTextList=a;
     }
 
@@ -35,8 +42,13 @@ public class TextAdapter extends RecyclerView.Adapter<TextAdapter.Viewholder>  {
 
     @Override
     public void onBindViewHolder(@NonNull Viewholder holder, int position) {
-        String te=mTextList.get(position);
-        holder.textContent.setText(te);
+        SimpleDateFormat dateFormatForDisplaying = new SimpleDateFormat("yyyy-M-dd hh:mm:ss a", Locale.getDefault());
+        String Eventcontent=mTextList.get(position).getData().toString();
+        java.util.Calendar EventTime=java.util.Calendar.getInstance(Locale.getDefault());
+        EventTime.setTimeInMillis(mTextList.get(position).getTimeInMillis());
+        java.util.Date date=EventTime.getTime();
+        holder.textContent.setText(Eventcontent);
+        holder.textdate.setText(dateFormatForDisplaying.format(date));
     }
 
     @Override

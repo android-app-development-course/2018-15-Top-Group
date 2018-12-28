@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/liyixun/Downloads/Android-master/TopGroup/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-land-v13/values-sw600dp-land-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/liyixun/.gradle/caches/transforms-1/files-1.1/datetimepicker-library-0.0.7.aar/6b28b7dba64d4853799367a6aa56622e/res/values-sw600dp-land-v13/values-sw600dp-land-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,102,151,197,243,292,348",
+                        "endColumns": "46,48,45,45,48,55,46",
+                        "endOffsets": "97,146,192,238,287,343,390"
+                    }
+                }
+            ]
+        }
+    ]
+}

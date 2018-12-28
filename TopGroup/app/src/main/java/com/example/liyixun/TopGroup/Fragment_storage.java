@@ -85,7 +85,7 @@ public class Fragment_storage extends Fragment {
                     if (count == size)
                         //Toast.makeText(activity,"the last one",Toast.LENGTH_LONG).show();
                         setGalleryAdapter();
-                        isload = false;
+                    isload = false;
                     break;
                 default:
                     break;

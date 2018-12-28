@@ -91,10 +91,12 @@ public class Myfragment extends Fragment{
     public class DataFragment {
         String date;
         List<String> mu;
+        List<Event> getfrom;
 
-        DataFragment(String d, List<String> m) {
+        DataFragment(String d, List<String> m,List<Event> g) {
             date = d;
             mu = m;
+            getfrom=g;
         }
     }
 
@@ -160,7 +162,7 @@ public class Myfragment extends Fragment{
                                 mutableBookings.add((String) bookingsFromMap.get(a).getData());
                             }
                             Log.d(TAG, "inside onclick " + bookingsFromMap.size());
-                            DataFragment EventAndDate = new DataFragment(dateFormatForDay.format(dateClicked), mutableBookings);
+                            DataFragment EventAndDate = new DataFragment(dateFormatForDay.format(dateClicked), mutableBookings,bookingsFromMap);
                             EventBus.getDefault().post(EventAndDate);
 
 
@@ -214,7 +216,7 @@ public class Myfragment extends Fragment{
         if (layoutRes == R.layout.fragment_textpad) {
             LinearLayoutManager layoutManager = new LinearLayoutManager(getActivity());
             textlist.setLayoutManager(layoutManager);
-            TextAdapter adapter = new TextAdapter(e.mu);
+            TextAdapter adapter = new TextAdapter(e.getfrom);
             textlist.setAdapter(adapter);
             textdate.setText(e.date);
         }

@@ -42,6 +42,11 @@ public class MainActivity extends AppCompatActivity {
     private String groupid;
     private User muser;
     private Group mgroup;
+    private BottomNavigationView navigation;
+    public List<Account> al_income = new ArrayList<>();
+    public List<Account> al = new ArrayList<>();
+    public List<Account> al_spend = new ArrayList<>();
+    private int now_fragment = 0;
     private static final int GET_GROUP = 11;
     Handler handler = new Handler(){
         @Override
@@ -53,8 +58,8 @@ public class MainActivity extends AppCompatActivity {
                     groupid = mgroup.getObjectId();
                     BoomSQL.setGroup(group);
                     Log.e("MainActivity",mgroup.getGroupname());
-                    fragment_calendar = new Fragment_calendar();
-                    replaceFragment(fragment_calendar);
+                    fragment_person = new Fragment_person();
+                    replaceFragment(fragment_person);
                     break;
                 default:
                     break;
@@ -69,22 +74,34 @@ public class MainActivity extends AppCompatActivity {
         public boolean onNavigationItemSelected(@NonNull MenuItem item) {
             switch (item.getItemId()) {
                 case R.id.navigation_calendar:
+                    if (now_fragment == 1) return false;
                     fragment_calendar = new Fragment_calendar();
+                    getSupportFragmentManager().getFragments();
                     replaceFragment(fragment_calendar);
+                    now_fragment = 1;
                     //mTextMessage.setText(R.string.title_calendar);
                     return true;
                 case R.id.navigation_account:
+                    if (now_fragment == 2) return false;
                     fragment_account = new Fragment_account();
+                    getSupportFragmentManager().getFragments();
                     replaceFragment(fragment_account);
+                    now_fragment = 2;
                     //mTextMessage.setText(R.string.title_account);
                     return true;
                 case R.id.navigation_storage:
+                    if (now_fragment == 3) return false;
                     fragment_storage = new Fragment_storage();
+                    getSupportFragmentManager().getFragments();
                     replaceFragment(fragment_storage);
+                    now_fragment = 3;
                     return true;
                 case R.id.navigation_me:
+                    if (now_fragment == 4) return false;
                     fragment_person = new Fragment_person();
+                    getSupportFragmentManager().getFragments();
                     replaceFragment(fragment_person);
+                    now_fragment = 4;
                     //mTextMessage.setText(R.string.title_me);
                     return true;
             }
@@ -137,24 +154,26 @@ public class MainActivity extends AppCompatActivity {
     private void init(){
 
         //groupid = getIntent().getStringExtra("groupid");
+
+        mTextMessage = (TextView) findViewById(R.id.message);
+        navigation = (BottomNavigationView) findViewById(R.id.navigation);
+        tb = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(tb);
+        navigation.setSelectedItemId(R.id.navigation_me);
+        navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
+
         if (BoomSQL.getGroup() == null) {
             groupid = null;
-            fragment_calendar = new Fragment_calendar();
-            replaceFragment(fragment_calendar);
+            fragment_person = new Fragment_person();
+            replaceFragment(fragment_person);
         } else {
             mgroup = BoomSQL.getGroup();
             groupid = mgroup.getObjectId();
             update_data();
         }
-        mTextMessage = (TextView) findViewById(R.id.message);
-        BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigation);
-        tb = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(tb);
-        navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
         if (groupid == null ){
             Toast.makeText(MainActivity.this,"请到个人界面选择小组",Toast.LENGTH_LONG).show();
         }
-
     }
 
     private void update_data() {

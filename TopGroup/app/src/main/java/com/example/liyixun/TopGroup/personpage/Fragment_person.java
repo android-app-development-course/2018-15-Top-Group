@@ -24,6 +24,8 @@ import android.support.v4.content.ContextCompat;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.RecyclerView;
+import android.support.v7.widget.StaggeredGridLayoutManager;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -72,6 +74,7 @@ public class Fragment_person extends Fragment implements View.OnClickListener{
     public Button switch_group;
     public Button quit;
     private MainActivity activity;
+
     private User user;
     private Group group;
     public static final int CHOOSE_PHOTO = 2;
@@ -92,6 +95,8 @@ public class Fragment_person extends Fragment implements View.OnClickListener{
         invite_person=(Button) view.findViewById(R.id.joinGroup);
         switch_group=(Button) view.findViewById(R.id.me_SwitchGroup);
         quit=(Button) view.findViewById(R.id.quit);
+
+
         //setHasOptionsMenu(true);
         //activity.setSupportActionBar(toolbar);
         //ActionBar actionBar=activity.getSupportActionBar();

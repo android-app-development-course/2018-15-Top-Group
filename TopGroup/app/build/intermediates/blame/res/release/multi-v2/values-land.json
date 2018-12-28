@@ -1,0 +1,55 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/liyixun/Downloads/Android-master/TopGroup/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-land/values-land.xml",
+            "map": [
+                {
+                    "source": "/Users/liyixun/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/769645eee5a1e9d3cf390a53ee6dde0c/res/values-land/values-land.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "10",
+                        "endOffsets": "222"
+                    },
+                    "to": {
+                        "startLines": "12",
+                        "startColumns": "4",
+                        "startOffsets": "680",
+                        "endLines": "15",
+                        "endColumns": "10",
+                        "endOffsets": "847"
+                    }
+                },
+                {
+                    "source": "/Users/liyixun/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/7b5a3483889d67769303998e6ebdca7a/res/values-land/values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,125,196",
+                        "endColumns": "69,70,67",
+                        "endOffsets": "120,191,259"
+                    }
+                },
+                {
+                    "source": "/Users/liyixun/.gradle/caches/transforms-1/files-1.1/datetimepicker-library-0.0.7.aar/6b28b7dba64d4853799367a6aa56622e/res/values-land/values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,111,191,240,302,364,411",
+                        "endColumns": "55,79,48,61,61,46,59",
+                        "endOffsets": "106,186,235,297,359,406,466"
+                    },
+                    "to": {
+                        "startLines": "5,6,7,8,9,10,11",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "264,320,400,449,511,573,620",
+                        "endColumns": "55,79,48,61,61,46,59",
+                        "endOffsets": "315,395,444,506,568,615,675"
+                    }
+                }
+            ]
+        }
+    ]
+}
