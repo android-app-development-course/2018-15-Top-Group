@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.colapps:datetimepicker-library-0.0.7">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/datetimepicker-library-0.0.7.aar/6b28b7dba64d4853799367a6aa56622e/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/datetimepicker-library-0.0.7.aar/6b28b7dba64d4853799367a6aa56622e/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.colapps/datetimepicker-library/0.0.7/7ae200c1c171e5c7861b33665ef83a4e9eae2d26/datetimepicker-library-0.0.7-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

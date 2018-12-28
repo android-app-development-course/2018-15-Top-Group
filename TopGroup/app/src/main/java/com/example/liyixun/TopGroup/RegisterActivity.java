@@ -177,10 +177,10 @@ public class RegisterActivity extends AppCompatActivity{
             public void onFocusChange(View v, boolean hasFocus) {
                 if (!hasFocus) {
                     String nickname = r_nickname.getText().toString();
-                    if (!hasFocus) {
                         if (nickname.length() > 10 || nickname.length() == 0 ) {
                             r_nickname.setCompoundDrawablesRelativeWithIntrinsicBounds(null,null,wrong,null);
                             bool_nn = false;
+                            btn_judge();
                             Toast.makeText(RegisterActivity.this,"长度不能为0或超过10",Toast.LENGTH_LONG).show();
                         }
                         else {
@@ -204,11 +204,10 @@ public class RegisterActivity extends AppCompatActivity{
                                         r_nickname.setCompoundDrawablesRelativeWithIntrinsicBounds(null,null,wrong,null);
                                         bool_nn = false;
                                     }
+                                    btn_judge();
                                 }
                             });
                         }
-                        btn_judge();
-                    }
                 }
             }
         });

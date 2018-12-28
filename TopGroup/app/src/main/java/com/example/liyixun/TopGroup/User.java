@@ -15,7 +15,7 @@ public class User extends BmobUser{
     private BmobFile avatar;
     private Integer age;
     private Integer gender;
-    private List<String> groupid;
+    private List<String> groupname;
 
     public String getNickname() {
         return nickname;
@@ -49,13 +49,12 @@ public class User extends BmobUser{
         this.gender = gender;
     }
 
-    public List<String> getGroupid() {
-        return groupid;
+
+    public List<String> getGroupname() {
+        return groupname;
     }
 
-    public void setGroupid(List<String> groupid) {
-        this.groupid = groupid;
+    public void setGroupname(List<String> groupname) {
+        this.groupname = groupname;
     }
-
-
 }

@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.liyixun.TopGroup">
 
+    <uses-permission android:name="android.permission.VIBRATE" />
     <!-- 允许联网 -->
     <uses-permission android:name="android.permission.INTERNET" />
     <!-- 获取GSM（2g）、WCDMA（联通3g）等网络状态的信息 -->
@@ -23,14 +24,15 @@
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_tab_team"
+        android:name=".Calendar.BoomSQL"
         android:label="@string/app_name"
         android:roundIcon="@drawable/ic_tab_team"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
             android:name=".LoginActivity"
-            android:label="LoginActivity"
-            android:launchMode="singleTask">
+            android:label="Top Group"
+           >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -47,6 +49,9 @@
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name">
+        </activity>
+        <activity
+            android:name=".Calendar.AddEvent">
         </activity>
 
         <!--

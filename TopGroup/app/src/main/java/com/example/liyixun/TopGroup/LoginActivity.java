@@ -2,6 +2,7 @@ package com.example.liyixun.TopGroup;
 
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.IBinder;
@@ -33,6 +34,8 @@ public class LoginActivity extends AppCompatActivity{
     private Boolean bool_account;
     private Boolean bool_password;
     private Boolean bool_login;
+    private SharedPreferences preferences;
+    private SharedPreferences.Editor editor;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -72,9 +75,18 @@ public class LoginActivity extends AppCompatActivity{
             @Override
             public void done(User bmobUser, BmobException e) {
                 if (e == null) {
-                    User user = BmobUser.getCurrentUser(User.class);
                     Snackbar.make(view, "登录成功：" + user.getUsername(), Snackbar.LENGTH_LONG).show();
-                    Intent intent = new Intent(LoginActivity.this,UserGroup.class);
+
+                    editor.putBoolean("rem",true);
+                    editor.putString("account",edt_account.getText().toString());
+                    editor.putString("password",edt_password.getText().toString());
+                    editor.apply();
+
+                    /*Intent intent = new Intent(LoginActivity.this,UserGroup.class);
+                    intent.putExtra("userid",bmobUser.getObjectId());
+                    startActivity(intent);*/
+                    Intent intent = new Intent(LoginActivity.this,MainActivity.class);
+                    //intent.putExtra("userid",bmobUser.getObjectId());
                     startActivity(intent);
                 } else {
                     Snackbar.make(view, "登录失败：" + e.getMessage(), Snackbar.LENGTH_LONG).show();
@@ -126,6 +138,16 @@ public class LoginActivity extends AppCompatActivity{
         tev_register = (TextView) findViewById(R.id.tev_register);
         bool_account = bool_password = false;
         bool_login = false;
+
+        preferences = getPreferences(MODE_PRIVATE);
+        editor = preferences.edit();
+        Boolean rem = preferences.getBoolean("rem",false);
+        if ( rem ) {
+            String account = preferences.getString("account",null);
+            String password = preferences.getString("password",null);
+            edt_account.setText(account);
+            edt_password.setText(password);
+        }
     }
 
     private void btn_judge(){
